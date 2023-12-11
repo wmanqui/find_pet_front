@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/layout/header';
+import Nav from './components/layout/nav'
 
+/*  Original Code
 function App() {
   return (
     <div className="App">
@@ -21,5 +24,17 @@ function App() {
     </div>
   );
 }
+*/
+
+
+function App(){
+  return(
+    <div className='App'>
+        <Header/>
+        <Nav/>
+    </div>
+  );
+}
+
 
 export default App;
