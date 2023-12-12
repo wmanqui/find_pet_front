@@ -1,8 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
-import Header from './components/layout/header';
-import Nav from './components/layout/nav';
-import Footer from './components/layout/footer';
+import Header from './components/layout/header_file';
+import Nav from './components/layout/nav_file';
+import Footer from './components/layout/footer_file';
 
 /*  Original Code
 function App() {
