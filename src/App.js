@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Header from './components/layout/header';
-import Nav from './components/layout/nav'
+import Nav from './components/layout/nav';
+import Footer from './components/layout/footer';
 
 /*  Original Code
 function App() {
@@ -32,6 +33,7 @@ function App(){
     <div className='App'>
         <Header/>
         <Nav/>
+        <Footer/>
     </div>
   );
 }
